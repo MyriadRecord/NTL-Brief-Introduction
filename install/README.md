@@ -5,7 +5,7 @@
 首先，在 [NTL 官网](http://www.shoup.net/ntl/download.html)下载一份最新的 NTL 源码。例如我把我下载的ntl-6.2.1.tar.gz压缩包放到了桌面上。ubuntu 的话直接双击解压，得到 ntl-6.2.1文件夹。执行如下命令：  
 
     cd Desktop/
-    tar -zxvf ntl-6.2.1.tar.gz  
+    tar -zxvf ntl-6.2.1.tar.gz （解压，如果你已经解压了请跳过这一步）  
 	cd ntl-6.2.1/src
 	./configure PREFIX=$HOME/sw
 	make
